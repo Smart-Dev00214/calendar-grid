@@ -1,0 +1,78 @@
+:root {
+  font-size: 16px;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #677274;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: solid 1px #b39ddb;
+  border-radius: 1rem;
+
+  color: #311b92;
+  background-color: #ede7f6;
+  transition: background-color ease 0.3s;
+
+  padding: 0.5rem 1rem;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5e35b1;
+  color: #ede7f6;
+}
+
+button:active {
+  background-color: #9c27b0;
+  color: #ede7f6;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Horizontal scrollbar */
+::-webkit-scrollbar:horizontal {
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+/* Horizontal handle on hover */
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background: #555;
+}
+
